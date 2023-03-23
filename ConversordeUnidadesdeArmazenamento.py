@@ -1,3 +1,4 @@
+Valorembit= 80
 ValoremByte= 1024
 ValoremKByte= 1024
 ValoremMByte= 1024
@@ -34,4 +35,36 @@ def TByteParaPByte(ValoremTByte):
     print('Valor convertido de Tbyte para Pbyte')
     PbytesCalculado = ValoremTByte / 1024
     return PbytesCalculado
+
+# ////////////////////////////////////////////////////////////////////////////////////////
+def PbyteParaTbyte(ValoremPbyte):
+    print('Valor convertido de Pbyte para Tbyte')
+    TbytesCalculado = ValoremPbyte * 1024
+    return TbytesCalculado
+
+def TbyteParaGbyte(ValoremTbyte):
+    print('Valor convertido de Tbyte para Gbyte')
+    GbytesCalculado = ValoremTbyte * 1024
+    return GbytesCalculado
+
+def GbyteParaMbyte(ValoremGbyte):
+    print('Valor convertido de Gbyte para Mbyte')
+    MbytesCalculado = ValoremGbyte * 1024
+    return MbytesCalculado
+
+def MbyteParaKbyte(ValoremMbyte):
+    print('Valor convertido de Mbyte para Kbyte')
+    KbytesCalculado = ValoremMbyte * 1024
+    return KbytesCalculado
+
+def KbyteParabyte(ValoremKbyte):
+    print('Valor convertido de Kbyte para byte')
+    bytesCalculado = ValoremKbyte * 1024
+    return bytesCalculado
+
+def byteParaBit(valorASerConvertido):
+    print('Valor convertido de byte para bit')
+    bitsCalculado = valorASerConvertido * 8
+    return bitsCalculado
+
 
