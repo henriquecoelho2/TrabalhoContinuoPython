@@ -1,10 +1,6 @@
-Valorembit= 80
-ValoremByte= 1024
-ValoremKByte= 1024
-ValoremMByte= 1024
-ValoremGByte= 1024
-ValoremTByte= 1024
-ValotemPByte= 1024
+def converterStringParaFloat(value):
+    print('Valor convertido de str para float')
+    return float(value)
 
 def bitParaByte(Valorembit):
     print('Valor convertido de bit para byte')
@@ -67,4 +63,7 @@ def byteParaBit(valorASerConvertido):
     bitsCalculado = valorASerConvertido * 8
     return bitsCalculado
 
-
+print('Insira o valor a ser convertido')
+entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
+valorConvertido = byteParaBit(entradaDoTecladoValorASerConvertido)
+print(valorConvertido)
