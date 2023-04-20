@@ -22,7 +22,7 @@ def calcularConversao (UnidadeInicial, UnidadeFinal, Numero):
     variacaoDasUnidades= posicaofinal-posicaoinicial
     conversor= 1024**variacaoDasUnidades
     if variacaoDasUnidades > 0:
-        resp= Numero / conversor
-    if variacaoDasUnidades < 0:
         resp= Numero * conversor
+    if variacaoDasUnidades < 0:
+        resp= Numero / conversor
     return resp
